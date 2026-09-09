@@ -226,4 +226,3 @@ Kubernetes 기반 애플리케이션 배포 환경과 CI/CD 파이프라인을 �
 ## 📫 Contact
 
 - Email: `soup0818@gmail.com`
-- Mobile: `010-7387-1587`
