@@ -225,6 +225,5 @@ Kubernetes 기반 애플리케이션 배포 환경과 CI/CD 파이프라인을 �
 
 ## 📫 Contact
 
-- Email: `your-email@example.com`
-- Blog: [기술 블로그](https://example.com)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/example)
+- Email: `soup0818@gmail.com`
+- Mobile: `010-7387-1587`
