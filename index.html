@@ -286,26 +286,24 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 32px;
-      padding: 38px;
+      gap: 24px;
+      padding: 24px 28px;
       border: 1px solid rgba(86, 224, 209, 0.28);
-      border-radius: 18px;
+      border-radius: 14px;
       background: linear-gradient(120deg, rgba(85, 167, 255, 0.12), rgba(86, 224, 209, 0.08));
     }
 
-    .contact-card p { margin: 8px 0 0; color: var(--muted); }
+    .contact-card h2 { font-size: 1.15rem; }
 
     .email-link {
       flex: 0 0 auto;
-      padding: 13px 18px;
-      border-radius: 10px;
-      background: var(--text);
-      color: var(--bg);
-      font-weight: 800;
-      text-decoration: none;
+      color: var(--muted);
+      font: 500 0.9rem/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      text-decoration-color: rgba(158, 176, 199, 0.5);
+      text-underline-offset: 4px;
     }
 
-    .email-link:hover { background: var(--cyan); }
+    .email-link:hover { color: var(--cyan); }
 
     footer {
       padding: 28px 0 46px;
@@ -331,8 +329,7 @@
       section { padding: 66px 0; }
       .competencies { grid-template-columns: 1fr; }
       .details-body { padding-left: 22px; }
-      .contact-card { align-items: flex-start; flex-direction: column; padding: 26px; }
-      .email-link { width: 100%; text-align: center; }
+      .contact-card { align-items: flex-start; flex-direction: column; padding: 22px; }
     }
 
     @media print {
@@ -346,7 +343,7 @@
       .project, .stack-group, .competencies li, details, .contact-card { background: #fff; border-color: #ccd5df; box-shadow: none; }
       details { break-inside: avoid; }
       details > * { display: block; }
-      .email-link { border: 1px solid #172033; background: #fff; color: #172033; }
+      .email-link { color: #344054; }
     }
   </style>
 </head>
@@ -452,10 +449,14 @@
 
     <section id="contact">
       <div class="container">
-        <div class="contact-card"><div><p class="section-kicker">05 / CONTACT</p><h2>Contact</h2><p>함께 이야기하고 싶은 프로젝트가 있다면 이메일로 연락해 주세요.</p></div><a class="email-link" href="mailto:soup0818@gmail.com">soup0818@gmail.com</a></div>
+        <div class="contact-card"><div><p class="section-kicker">05 / CONTACT</p><h2>Email</h2></div><a class="email-link" href="mailto:soup0818@gmail.com">soup0818@gmail.com</a></div>
       </div>
     </section>
   </main>
+
+  <footer><div class="container">DevOps &amp; Cloud Engineer Portfolio</div></footer>
+</body>
+</html>
 
   <footer><div class="container">DevOps &amp; Cloud Engineer Portfolio</div></footer>
 </body>
